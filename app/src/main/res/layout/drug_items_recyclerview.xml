@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll_drug_item"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@color/colorBackgroundLight"
+    android:layout_margin="5dp">
+
+    <ImageView
+        android:id="@+id/iv_drug"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitCenter"
+        android:layout_alignParentLeft="true"/>
+
+    <TextView
+        android:id="@+id/tv_drug_des"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textColor="@color/TextColor"
+        android:textSize="8pt"
+        android:layout_toRightOf="@id/iv_drug"
+        android:layout_marginStart="10dp"/>
+</RelativeLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/colorBackgroundLight">
+
+    <item
+        android:id="@+id/mi_calculator"
+        android:textColor="@color/TextColor"
+        android:title="Open Calculator" />
+    <item
+        android:id="@+id/mi_motion"
+        android:textColor="@color/TextColor"
+        android:title="Measure Motion" />
+    <item
+        android:id="@+id/mi_web"
+        android:textColor="@color/TextColor"
+        android:title="Open Web" />
+
+    <item
+        android:id="@+id/mi_contact"
+        android:title="Open Contact" />
+
+    <item
+        android:id="@+id/mi_drug_rcv"
+        android:title="See Medicines" />
+
+    <item android:title="Settings">
+        <menu android:background="@color/colorBackgroundLight">
+            <item
+                android:id="@+id/mi_changeTheme"
+                android:icon="@drawable/ic_theme"
+                android:textColor="@color/TextColor"
+                android:title="Change Theme" />
+        </menu>
+    </item>
+
+    <item android:title="Change Background">
+        <menu android:background="@color/colorBackgroundLight">
+            <item
+                android:id="@+id/mi_changeBG_camera"
+                android:textColor="@color/TextColor"
+                android:title="Open Camera" />
+            <item
+                android:id="@+id/mi_changeBG_gallery"
+                android:textColor="@color/TextColor"
+                android:title="Open Gallery" />
+        </menu>
+    </item>
+</menu>

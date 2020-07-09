@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mi_makeCall"
+        android:title="Make Call"
+        android:icon="@drawable/ic_call_black"/>
+    <item
+        android:id="@+id/mi_sendSms"
+        android:title="Send Message"
+        android:icon="@drawable/ic_message_black"/>
+</menu>
