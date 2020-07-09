@@ -34,6 +34,8 @@ public class LoginActivity extends AppCompatActivity {
     RelativeLayout rl_login;
     final static int REQUEST_CAMERA = 1;
     final static int RESULT_LOAD_IMAGE = 2;
+    final static int MICROPHONE_REQ = 3;
+    final static int STORAGE_REQ = 4;
 
     SharedPreferences appSettings;
     SharedPreferences.Editor appSettingsEdit;
@@ -194,6 +196,10 @@ public class LoginActivity extends AppCompatActivity {
             break;
             case R.id.mi_drug_rcv:{
                 Intent i = new Intent(getApplicationContext(), DrugRecyclerView.class);
+                startActivity(i);
+            }
+            case R.id.mi_videoRecord:{
+                Intent i = new Intent(getApplicationContext(), VideoRecording.class);
                 startActivity(i);
             }
         }

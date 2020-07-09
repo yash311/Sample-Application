@@ -23,6 +23,10 @@
         android:id="@+id/mi_drug_rcv"
         android:title="See Medicines" />
 
+    <item
+        android:id="@+id/mi_videoRecord"
+        android:title="Record Video"/>
+
     <item android:title="Settings">
         <menu android:background="@color/colorBackgroundLight">
             <item
