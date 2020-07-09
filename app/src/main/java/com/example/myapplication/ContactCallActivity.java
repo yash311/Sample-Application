@@ -29,8 +29,8 @@ public class ContactCallActivity extends AppCompatActivity {
 
     ListView lv_contact;
 
-    String[] contactName = {"Dad", "Mom", "Brother", "Uncle", "Dadu", "Parth", "Maitri", "Sahil", "Jaldeep"};
-    String[] phNo = {"9824849766", "8320970376", "7623893088", "9824905626", "9426968325", "9712294050", "9106713682", "7284902575", "9265309833"};
+    String[] contactName = {"Dad", "Mom", "Brother", "Uncle"};
+    String[] phNo = {"9853254685", "1236589745", "1213657789", "1234567890"};
     String selectedContact;
     ArrayList<Item> al;
 
