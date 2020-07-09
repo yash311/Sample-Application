@@ -198,10 +198,12 @@ public class LoginActivity extends AppCompatActivity {
                 Intent i = new Intent(getApplicationContext(), DrugRecyclerView.class);
                 startActivity(i);
             }
+            break;
             case R.id.mi_videoRecord:{
                 Intent i = new Intent(getApplicationContext(), VideoRecording.class);
                 startActivity(i);
             }
+            break;
         }
         return true;
     }
