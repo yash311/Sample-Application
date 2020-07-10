@@ -12,7 +12,6 @@ import android.provider.MediaStore;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
-import android.view.View;
 import android.widget.Button;
 import android.widget.RelativeLayout;
 
@@ -194,16 +193,20 @@ public class LoginActivity extends AppCompatActivity {
                 startActivity(con);
             }
             break;
-            case R.id.mi_drug_rcv:{
+            case R.id.mi_drug_rcv: {
                 Intent i = new Intent(getApplicationContext(), DrugRecyclerView.class);
                 startActivity(i);
             }
             break;
-            case R.id.mi_videoRecord:{
+            case R.id.mi_videoRecord: {
                 Intent i = new Intent(getApplicationContext(), VideoRecording.class);
                 startActivity(i);
             }
             break;
+            case R.id.mi_progressDialog: {
+                Intent i = new Intent(getApplicationContext(), ProgressDialogDemo.class);
+                startActivity(i);
+            }
         }
         return true;
     }

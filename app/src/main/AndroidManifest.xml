@@ -11,7 +11,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".VideoRecording"></activity>
+        <activity android:name=".ProgressDialogDemo"></activity>
+        <activity android:name=".VideoRecording" />
         <activity android:name=".DrugRecyclerView" />
         <activity android:name=".SensorTest" />
         <activity android:name=".LoginActivity">

@@ -25,7 +25,10 @@
 
     <item
         android:id="@+id/mi_videoRecord"
-        android:title="Record Video"/>
+        android:title="Record Video" />
+    <item
+        android:id="@+id/mi_progressDialog"
+        android:title="Progressbar demo" />
 
     <item android:title="Settings">
         <menu android:background="@color/colorBackgroundLight">
