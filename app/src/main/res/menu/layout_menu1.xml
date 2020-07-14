@@ -30,6 +30,10 @@
         android:id="@+id/mi_progressDialog"
         android:title="Progressbar demo" />
 
+    <item
+        android:id="@+id/mi_jsonParse"
+        android:title="Json Parsing Example" />
+
     <item android:title="Settings">
         <menu android:background="@color/colorBackgroundLight">
             <item

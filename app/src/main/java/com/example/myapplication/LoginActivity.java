@@ -1,6 +1,7 @@
 package com.example.myapplication;
 
 import android.Manifest;
+import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
@@ -12,7 +13,6 @@ import android.provider.MediaStore;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
-import android.widget.Button;
 import android.widget.RelativeLayout;
 
 import androidx.annotation.NonNull;
@@ -25,11 +25,6 @@ import java.io.FileNotFoundException;
 import java.io.InputStream;
 
 public class LoginActivity extends AppCompatActivity {
-
-    Button btn_camera;
-    Button btn_gallery;
-    Button btn_cal;
-    Button btn_motionSen;
     RelativeLayout rl_login;
     final static int REQUEST_CAMERA = 1;
     final static int RESULT_LOAD_IMAGE = 2;
@@ -45,13 +40,9 @@ public class LoginActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-        /*btn_camera = findViewById(R.id.btn_camera);
-        btn_gallery = findViewById(R.id.btn_gallery);
-        btn_cal = findViewById(R.id.btn_cal);
-        btn_motionSen = findViewById(R.id.btn_motionSen);*/
         rl_login = findViewById(R.id.rl_login);
 
-        appSettings = getSharedPreferences("AppSettings", 0);
+        appSettings = getSharedPreferences("AppSettings", Context.MODE_PRIVATE);
         appSettingsEdit = appSettings.edit();
         isDarkModeOn = appSettings.getBoolean("nightMode", false);
         if (isDarkModeOn) {
@@ -206,6 +197,10 @@ public class LoginActivity extends AppCompatActivity {
             case R.id.mi_progressDialog: {
                 Intent i = new Intent(getApplicationContext(), ProgressDialogDemo.class);
                 startActivity(i);
+            }
+            break;
+            case R.id.mi_jsonParse: {
+                startActivity(new Intent(getApplicationContext(), JsonParsing.class));
             }
         }
         return true;
