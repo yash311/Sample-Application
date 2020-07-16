@@ -10,3 +10,6 @@ Making use of different andoid layouts, views and some other features.
 * Getting Contacts from Phone's Contact list
 * RecyclerView with Grid layout
 * Change background temporarily from either capturing photo from camera or getting photo from gallery
+* Record Video and see the recorded video, it is stored in the memory so can be seen later on
+* Progress bar with progress dialogue demo is added
+* Json parsing example is also done by creating POJO class, its output is shown in recyclerview with grid layout
