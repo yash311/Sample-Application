@@ -1,5 +1,5 @@
 # Sample-Application
-Making use of different andoid layouts, views and some other features.
+Making use of different andoid layouts, views and some other features. All the features are added in the menu (3 dots in the top right corner of the app)
 
 ## Features:
 * Dark/Light Mode
