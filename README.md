@@ -13,6 +13,5 @@ Making use of different andoid layouts, views and some other features.
 * Record Video and see the recorded video, it is stored in the memory so can be seen later on
 * Progress bar with progress dialogue demo is added
 * Json parsing example is also done by creating POJO class, its output is shown in recyclerview with grid layout
-### -
-* Link for JSON file: https://api.github.com/users
-* JSON to Pojo converter: www.jsonschema2pojo.org
+** Link for JSON file: https://api.github.com/users
+** JSON to Pojo converter: www.jsonschema2pojo.org
